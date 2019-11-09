@@ -1,0 +1,25 @@
+body {
+  background-color:  green;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600;
+}
+
+h1,h2,h3.center{
+  margin-left: auto;
+  margin-right: auto;
+  width: 400;
+  border: 3px solid white;
+  padding: 10px;
+}
+
+h1{
+  color: Pink;
+}
+h2,h3{
+  color: orange;
+
+}
