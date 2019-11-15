@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title> contact form </title>
+    </head>
+    <body style="background-color: green; text-align:center;">
+             <h1>Virtual University Contact Form </h1>
+             <br>
+             <br>
+             <table style="width:50%" align="center">
+           <tr>
+               <th>Full Name : <input type="text" required><br><br></th>
+               <th>Email : <input type="email" name="" id=""><br><br></th>
+           </tr>
+         <tr>
+              <th>Phone : <input type="tel" required><br><br></th>
+              <th>Address : <input type="text" required><br><br></th>
+           </tr>
+         <tr>
+              <th>Gender : <select name="" id="">
+                <option value="select">Select</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br><br></th>
+    <td>  <b> Marital Status : <select name="" id="">
+                       <option value="">Select</option>
+                       <option value="">Married</option>
+                       <option value="">UnMarried</option>
+                     </select>  <br></td>
+  </tr>
+</table>
+
+                         <br>
+                         <div style="display: inline-block;">
+
+                                      <b>  Degree : <select name="" id="">
+                                                     <option value="">Select</option>
+                                                     <option value="">BS Computer Science</option>
+                                                     <option value="">BS Software Engineering</option>
+                                                     <option value="">BS Information Technology</option>
+                                                    </select>
+                                                  <b>  school : <input type="text" required>
+                                                    <b>   Book code : <select name="" id="">
+                                                                  <option value="">Select</option>
+                                                                  <option value="">CS502</option>
+                                                                  <option value="">CS302</option>
+                                                                  <option value="">CS601</option>
+                                                                  <option value="">CS504</option>
+                                                                </select>
+                            <b>   Year : <select name="" id=""> <ul>
+                <li>          <option value="">Select</option></li>
+                                    <li>  <option value="">2001</option></li>
+                                  <li>  <option value="">2002</option></li>
+                                <li>    <option value="">2003</option></li>
+                                  <li>  <option value="">2004</option></li>
+                                  </ul>
+                                            </select>
+                         </div> <br><br>
+                         <div style="display: inline-block;">
+                           <hr>
+                         <h2>Hobbies</h2>
+                         <input type="text" name="" id="">
+                         <input type="text" name="" id=""> <br><br>
+                         <input type="text" name="" id="">
+                         <input type="text" name="" id="">
+                         </div><br>
+                         <div style="display: inline-block;">
+                            <h2>References</h2>
+                            <div style="background-color: lightgrey;   border: 2px solid green;">
+                            <input type="text"></div>
+                            <br>
+                               <button onclick="myFunction()">submit</button>
+                         </div>
+                          <p id="demo"></p>
+
+                            <script>
+                                   function myFunction() {
+                                 document.getElementById("demo").innerHTML = "Your Information Has Been Submitted Successfully";
+                              }
+                                      </script>
+    </body>
+</html>
